@@ -1,0 +1,274 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+
+}
+
+.btn_red {
+    background-color: #D41217;
+    color: white;
+    width: 180px;
+}
+
+.btn_red:hover {
+    background-color: darkred;
+    color: white;
+}
+
+
+.bg_grey:before {
+    background-color: rgb(106, 99, 99);
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    filter: blur(2px);
+    z-index: -1;
+}
+
+.text_nav {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #4A4A4A;
+}
+
+.logo img {
+    width: 200px;
+    z-index: -10;
+}
+
+.logo {
+    z-index: -10;
+}
+
+.separator {
+    height: 2px;
+    background-color: #D41217;
+}
+
+.menu {
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+}
+
+
+.menu .nav-link a {
+    text-decoration: none;
+    color: #4A4A4A;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+.menu .nav-link-cher {
+    list-style: none;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #D41217;
+    word-wrap: break-word;
+    /*  border: 1px solid #000000;*/
+    width: 129px;
+    height: 28px;
+    margin-bottom: -10px;
+}
+
+/*.bi-search{
+    position: absolute;
+    left: 1659px;
+    top: 165px;
+    background: #FFFFFF;
+}*/
+
+.search_btn svg path {
+    fill: #D41217;
+
+}
+
+.search_container .btn_search {
+
+    background-color: #D41217;
+    border-color: #D41217;
+    color: white;
+    width: 230px;
+
+}
+
+.search_container .form-control {
+    border-color: #D41217;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.hero_banner {
+    background-image: url("assets/hero.png");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.hero_banner h1 {
+    font-family: Roboto, sans-serif;
+    font-size: 104px;
+    font-weight: 700;
+    line-height: 122px;
+    color: white;
+    text-align: center;
+}
+
+.down-box {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    height: 176px;
+    margin-top: 8px;
+    left: 0px;
+    color:#4A4A4A;
+
+}
+
+.down-box h4 {
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #D41217;
+
+}
+
+.box-title{
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.box1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    color: white;
+    background-color: #8961A6E5;
+    list-style: none;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+
+
+}
+
+.date {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: white;
+
+}
+
+.tekst {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    list-style: none;
+    color: #FFFFFF;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+.box2 {
+    background-color: #F39332E5;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.box3 {
+
+    background-color: #8DB524E5;
+    color: white;
+
+}
+
+.box4 {
+    background-color: #D41217E5;
+}
+
+.box4 h2{
+    font-size: 50px;
+    color: white;
+}
+
+.box4 h3{
+    font-size: 32px;
+    color: white;
+}
+
+.box4 h4{
+    font-size: 24px;
+    color: white;
+}
+
+.bg_red{
+    background: rgba(212, 18, 23, 0.3);
+}
+
+.menu-mobile{
+    width:100%;
+    background: white;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 25px;
+
+}
+
+.burger-menu{
+    cursor:pointer;
+}
+
+.burger-menu span {
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    background:#D41217;
+    display: block;
+    margin: 7px auto;
+    transition: all .5s;
+
+}
+.open{
+    width:120px;
+}
+
+.menu-dropdown-mobile .dropdown-toggle{
+    width: 150px;
+    font-size: 26px;
+}
+
+.navigation-mobile ul li{
+    width: 100%;
+
+
+}
