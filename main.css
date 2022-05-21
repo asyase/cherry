@@ -138,7 +138,7 @@ ul {
     height: 176px;
     margin-top: 8px;
     left: 0px;
-    color:#4A4A4A;
+    color: #4A4A4A;
 
 }
 
@@ -150,7 +150,7 @@ ul {
 
 }
 
-.box-title{
+.box-title {
     font-size: 24px;
     font-weight: 700;
 
@@ -214,29 +214,28 @@ ul {
     background-color: #D41217E5;
 }
 
-.box4 h2{
+.box4 h2 {
     font-size: 50px;
     color: white;
 }
 
-.box4 h3{
+.box4 h3 {
     font-size: 32px;
     color: white;
 }
 
-.box4 h4{
+.box4 h4 {
     font-size: 24px;
     color: white;
 }
 
-.bg_red{
+.bg_red {
     background: rgba(212, 18, 23, 0.3);
 }
 
-.menu-mobile{
-    width:100%;
+.menu-mobile {
+    width: 100%;
     background: white;
-    border: 2px solid red;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -244,31 +243,78 @@ ul {
 
 }
 
-.burger-menu{
-    cursor:pointer;
+.burger-menu {
+    cursor: pointer;
 }
 
 .burger-menu span {
     height: 15px;
     width: 15px;
     border-radius: 15px;
-    background:#D41217;
+    background: #D41217;
     display: block;
     margin: 7px auto;
     transition: all .5s;
 
 }
-.open{
-    width:120px;
+
+.open {
+    width: 120px;
 }
 
-.menu-dropdown-mobile .dropdown-toggle{
+.menu-dropdown-mobile .dropdown-toggle {
     width: 150px;
     font-size: 26px;
 }
 
-.navigation-mobile ul li{
+.navigation-mobile ul li {
     width: 100%;
 
+
+}
+
+.fullwidth {
+    border: 2px solid red;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #D41217;
+}
+
+.online-gaming {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #8DB524;
+}
+
+.half-col1 {
+    background-color: rgba(141, 181, 36, 0.2);
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #4A4A4A;
+
+}
+
+.restaurant {
+    color: #8961A6;
+}
+
+.half-col{
+    background-color: rgba(137, 97, 166, 0.2);
+
+}
+.half-col{
+}
+.restaurant-text{
 
 }
